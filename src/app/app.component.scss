@@ -1,0 +1,33 @@
+@import "material-icons/iconfont/material-icons.css";
+
+/* Color Palette  https://coolors.co/palette/353535-3c6e71-ffffff-d9d9d9-284b63*/
+
+$dark-primary-color: #284b63ff;
+$light-primary-color: #3c6e71ff;
+$primary-color: #607d8b;
+$text-icons: #ffffff;
+$accent-color: #d9d9d9ff;
+$primary-text: #212121;
+$secondary-text: #757575;
+$divider-color: #353535ff;
+
+/* Tool Bar */
+mat-toolbar {
+  background-color: $dark-primary-color;
+  color: $text-icons;
+  margin: -0.6vw;
+  //width: 100.1vw;
+}
+
+mat-icon{
+  color: $text-icons;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+/* Tabs */
+.mat-tab-group {
+  margin: 10px 0 48px 0;
+}

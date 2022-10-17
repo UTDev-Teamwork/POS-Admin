@@ -1,0 +1,13 @@
+@import "material-icons/iconfont/material-icons.css";
+
+table {
+  width: 100%;
+}
+
+mat-paginator{
+  margin-right: 2vw;
+}
+
+.mat-elevation-z8{
+  margin: 20px;
+}
